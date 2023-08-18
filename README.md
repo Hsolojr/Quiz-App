@@ -29,7 +29,7 @@ A big thanks to Jeremiah Haynes for helping me figure out the score board to thi
 No Licenses were applied to this Web Application. 
 
 # Link to Web App
-
+https://hsolojr.github.io/Quiz-App/
 
 # ScreenShot
 <img width="1296" alt="Screen Shot 2023-08-17 at 5 14 12 PM" src="https://github.com/Hsolojr/Quiz-App/assets/139496108/41aa775c-16b5-4554-8114-7fb80b9005dc">
