@@ -40,12 +40,14 @@ const questions = [
 document.addEventListener("DOMContentLoaded", () => {
     const startBtn = document.getElementById("start-btn");
     const startPage = document.getElementById("start-page");
-    const quizPage = document.getElementById("quiz-page");
+    const quizPage = document.getElementById("quiz");
     const questionElement = document.getElementById("question");
     const answerButton = document.getElementById("answer-buttons");
     const nextButton = document.getElementById("next-btn");
     const timerElement = document.getElementById("timer");
     const scoresEl = document.getElementById("high-scores");
+
+    
 
     let currentQuestionIndex = 0;
     let score = 0;
@@ -154,16 +156,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function startGameAgain() {
-        currentQuestionIndex = 0;
-        score = 0;
-        timeLeft = 90;
-        startGame();
+        location.reload();
+
     }
 
     startBtn.addEventListener("click", () => {
         startGame();
         startPage.style.display = "none";
-        quizPage.style.display = "block";
+        // quizPage.style.display = "block";
     });
 
     nextButton.addEventListener("click", () => {
